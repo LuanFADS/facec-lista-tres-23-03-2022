@@ -24,15 +24,18 @@ namespace Exercicio.Oito
                 var nome = Console.ReadLine().ToLower();
                 var count = 0;
 
-                for (int i = 0; i < nome.Length; i++)
+                //for (int i = 0; i < nome.Length; i++)
+                foreach (var letra in nome)
                 {
-                    var letra = nome[i];
+                    //var letra = nome[i];
+
                     //    if (!_a.Equals(letra)
                     //        && !_e.Equals(letra)
                     //        && !_i.Equals(letra)
                     //        && !_o.Equals(letra)
                     //        && !_u.Equals(letra))
                     //        count++;
+
                     if (!_vogais.Contains(letra))
                     {
                         count++;
