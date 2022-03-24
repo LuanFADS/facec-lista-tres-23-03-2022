@@ -25,9 +25,6 @@ namespace Exercicio.Nove
             //this.teste = teste;
         }
 
-        public override string ToString()
-        {
-            return $"Autor: {Autor} \n Livro: {Titulo} \n Valor: {Valor}"; 
-        }
+        public override string ToString() => $"Autor: {Autor} \n Livro: {Titulo} \n Valor: {Valor}";
     }
 }
