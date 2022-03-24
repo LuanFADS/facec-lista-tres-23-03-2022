@@ -1,0 +1,8 @@
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\obj\Debug\Exercicio.Oito.csproj.AssemblyReference.cache
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\obj\Debug\Exercicio.Oito.csproj.SuggestedBindingRedirects.cache
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\obj\Debug\Exercicio.Oito.csproj.CoreCompileInputs.cache
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\bin\Debug\Exercicio.Oito.exe.config
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\bin\Debug\Exercicio.Oito.exe
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\bin\Debug\Exercicio.Oito.pdb
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\obj\Debug\Exercicio.Oito.exe
+C:\Users\facec.lab04\source\repos\Facec.Lista.Exercicios.3\Exercicio.Oito\obj\Debug\Exercicio.Oito.pdb
