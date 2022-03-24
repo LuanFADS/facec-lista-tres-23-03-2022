@@ -8,7 +8,7 @@ namespace Exercicio.Oito
 {
     internal class Program
     {
-        private readonly char[] _vogais = new char[5] {'a','e','i','o','u'};
+        private static readonly char[] _vogais = new char[5] {'a','e','i','o','u'};
         
         //private const char _a = 'a';
         //private const char _e = 'e';
@@ -24,21 +24,20 @@ namespace Exercicio.Oito
                 var nome = Console.ReadLine().ToLower();
                 var count = 0;
 
-                //if nome[] in _vogais[0..4]
-                //{
-                    
-                //}
-
-                //for (int i = 0; i < nome.Length; i++)
-                //{
-                //    var letra = nome[i];
-                //    if (!_a.Equals(letra)
-                //        && !_e.Equals(letra)
-                //        && !_i.Equals(letra)
-                //        && !_o.Equals(letra)
-                //        && !_u.Equals(letra))
-                //        count++;
-                //}
+                for (int i = 0; i < nome.Length; i++)
+                {
+                    var letra = nome[i];
+                    //    if (!_a.Equals(letra)
+                    //        && !_e.Equals(letra)
+                    //        && !_i.Equals(letra)
+                    //        && !_o.Equals(letra)
+                    //        && !_u.Equals(letra))
+                    //        count++;
+                    if (!_vogais.Contains(letra))
+                    {
+                        count++;
+                    }
+                }
 
                 Console.WriteLine($"\nO nome ({nome}) possui {count} consoantes!");
             }
