@@ -10,6 +10,7 @@ namespace Exercicio.Nove
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
