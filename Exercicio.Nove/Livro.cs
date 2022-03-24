@@ -9,7 +9,7 @@ namespace Exercicio.Nove
     internal struct Livro
     {
 
-        private string teste;
+       // private string teste;
 
         public string Titulo { get; private set; } 
 
@@ -17,17 +17,17 @@ namespace Exercicio.Nove
 
         public decimal Valor { get; private set; }
 
-        public Livro(string titulo, string autor, decimal valor, string teste)
+        public Livro(string titulo, string autor, decimal valor)
         {
             Titulo = titulo ?? throw new ArgumentNullException(nameof(titulo));
             Autor = autor ?? throw new ArgumentNullException(nameof(autor));
             Valor = valor;
-            this.teste = teste;
+            //this.teste = teste;
         }
 
         public override string ToString()
         {
-            return $""; 
+            return $"Autor: {Autor} \n Livro: {Titulo} \n Valor: {Valor}"; 
         }
     }
 }
